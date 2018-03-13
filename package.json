@@ -1,0 +1,26 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "This app allows you to add and eat burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salty923/Burger.git"
+  },
+  "keywords": [],
+  "author": "Scott Saltzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salty923/Burger/issues"
+  },
+  "homepage": "https://github.com/Salty923/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}

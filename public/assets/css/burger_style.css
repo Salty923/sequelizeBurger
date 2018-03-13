@@ -1,0 +1,37 @@
+html{
+    background: rgb(35, 134, 214)
+}
+
+.main{
+    height: 350px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+input{
+    margin: 30px auto;
+    width: 300px;
+    background: rgb(226, 222, 222);
+}
+
+button{
+    width: 100px;
+    margin: 0px 10px;
+}
+
+.burger_div{
+    width: 200px;
+    margin: 10px;
+    height: 40px;
+    background: turquoise;
+    border: solid grey 1px;
+    border-radius: 5px;
+    
+}
+
+p{
+    padding:5px;
+}
