@@ -4,7 +4,8 @@
   "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +14,20 @@
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
     "method-override": "^2.3.5",
-    "mysql": "^2.10.2"
+    "mysql": "^2.10.2",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.36.1"
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salty923/sequelizeBurger.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Salty923/sequelizeBurger/issues"
+  },
+  "homepage": "https://github.com/Salty923/sequelizeBurger#readme"
 }
