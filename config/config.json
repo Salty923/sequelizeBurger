@@ -1,5 +1,4 @@
 
-//start-shore-73257
 {
   "development": {
     "username": "root",
@@ -16,11 +15,9 @@
     "dialect": "mysql"
   },
   "production": {
-    // "username": "wb8kaoxcbxl4738p",
-    // "password": "dw5tu5pzz66mioji",
-    // "database": "im63pxbj0faesxm",
-    // "host": "g8r9w9tmspbwmsyo.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "use_env_variable": "JAWSDB_URL"
   }
 }
+
+
