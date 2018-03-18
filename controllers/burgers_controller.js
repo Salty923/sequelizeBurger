@@ -3,17 +3,20 @@ var express = require("express");
 var router = express.Router();
 var db = require("../models/");
 
-// get route -> index
-router.get("/", function(req, res) {
-  res.redirect("/burgers");
-});
+// // get route -> index
+// router.get("/", function(req, res) {
+//   res.redirect("/burgers");
+// });
 
-router.get("/burgers", function(req, res) {
+router.get("/", function(req, res) {
   // express callback response by calling burger.selectAllBurger
   db.Burger.findAll({})
     .then(function (dbPost) {
-      res.json(dbPost);
-    });
+      var hbsObjext ={
+        burgers: dbPost
+      };
+      res.render('index',hbsObjext);
+    })
 });
 
 // post route -> back to index
