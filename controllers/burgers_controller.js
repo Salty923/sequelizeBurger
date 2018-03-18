@@ -1,5 +1,4 @@
 var express = require("express");
-
 var router = express.Router();
 var db = require("../models/");
 
@@ -11,9 +10,9 @@ var db = require("../models/");
 router.get("/", function(req, res) {
   // express callback response by calling burger.selectAllBurger
   db.Burger.findAll({})
-    .then(function (dbPost) {
+    .then(function (data) {
       var hbsObjext ={
-        burgers: dbPost
+        burgers: data
       };
       res.render('index',hbsObjext);
     })
